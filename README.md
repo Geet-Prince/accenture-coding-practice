@@ -105,17 +105,28 @@ This repository includes a **built-in testing system** — no web app, no manual
 ```
 1. Open any Q01-Something.java file
 2. Write your solution
-3. Press Ctrl+Alt+T
+3. Press Ctrl+Shift+T to test and run the code
 4. See PASS/FAIL with expected vs actual output
 ```
+
+> [!IMPORTANT]
+> **Keyboard Shortcuts Not Working? (For Beginners)**  
+> If pressing `Ctrl+Shift+T` or `Ctrl+Shift+C` does **not** work for you, you can manually trigger them from the command palette at any time. We highly recommend this if you run into shortcut conflicts:
+> 1. Press **`Ctrl+Shift+P`** to open the Command Palette.
+> 2. Type and search for **`Tasks: Run Task`** and hit Enter.
+> 3. Select **`Accenture: Compile Current Question`** or **`Accenture: Run Current Question`** from the dropdown list.
+> 
+> *It's that simple! This ensures you can always run or compile your code.*
+>
+> 💡 **Encountered an Error?** Check out [`run_error.md`](run_error.md) for a detailed troubleshooting guide. It provides a specialized prompt you can copy-paste to an AI to instantly fix your problem!
 
 ### VS Code Tasks
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl+Alt+T` | Run visible tests on current file |
-| `Ctrl+Alt+A` | Run all tests (visible + hidden) |
-| `Ctrl+Alt+C` | Compile only |
-| `Terminal → Run Task` | See all available tasks |
+| **`Ctrl+Shift+T`** | Run visible tests on current file |
+| **`Ctrl+Shift+A`** | Run all tests (visible + hidden) |
+| **`Ctrl+Shift+C`** | Compile only |
+| `Ctrl+Shift+P` → `Tasks: Run Task` | Fallback: See all available tasks |
 
 ### PowerShell Commands
 ```powershell

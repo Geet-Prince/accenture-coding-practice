@@ -1,16 +1,16 @@
 [
     {
-        "key": "ctrl+alt+t",
+        "key": "ctrl+shift+t",
         "command": "workbench.action.tasks.runTask",
         "args": "Accenture: Run Current Question"
     },
     {
-        "key": "ctrl+alt+a",
+        "key": "ctrl+shift+a",
         "command": "workbench.action.tasks.runTask",
         "args": "Accenture: Run All Tests"
     },
     {
-        "key": "ctrl+alt+c",
+        "key": "ctrl+shift+c",
         "command": "workbench.action.tasks.runTask",
         "args": "Accenture: Compile Current Question"
     }
