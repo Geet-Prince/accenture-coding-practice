@@ -1,10 +1,10 @@
 # 🚀 Accenture Coding Prep
 
-> A research-based, Java-first coding preparation repository for the 2026 Accenture placement assessments (ASE & AASE).
+> A research-based, Java-first coding preparation repository for the 2027 Accenture placement assessments (ASE & AASE).
 
 [![GitHub Stars](https://img.shields.io/github/stars/Geet-Prince/accenture-coding-practice?style=social)](https://github.com/Geet-Prince/accenture-coding-practice)
 [![Java](https://img.shields.io/badge/Java-Zero%20Dependency-orange.svg)](https://java.com)
-[![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2026_Batch-blue.svg)](#)
+[![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2027_Batch-blue.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -35,11 +35,11 @@ It contains:
 ## 👥 Who Is This For?
 
 This repository is highly specific and useful for:
-- Accenture placement preparation (2026 season)
+- Accenture placement preparation (2027 Batch)
 - Associate Software Engineer (ASE) preparation
 - Advanced Associate Software Engineer (AASE) preparation
 - Students preparing for the Stage 1 Cognitive & Technical filter
-- Students wanting structured, offline Java coding practice
+- Students wanting structured, offline Java coding practice (includes historical questions from 2020 to 2026 and extra practice patterns)
 
 ---
 
