@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-04-061",
+  "title": "Valid Anagram",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "listen\nsilent",
+      "expected": "true"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Different lengths",
+      "input": "a\nab",
+      "expected": "false"
+    }
+  ]
+}

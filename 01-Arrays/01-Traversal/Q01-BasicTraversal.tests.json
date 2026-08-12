@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-ARR-T01",
+  "title": "Basic Array Traversal and Print",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n1 2 3 4 5",
+      "expected": "1\n2\n3\n4\n5\nSum: 15"
+    },
+    {
+      "name": "Negative and Zero",
+      "input": "3\n-1 0 5",
+      "expected": "-1\n0\n5\nSum: 4"
+    },
+    {
+      "name": "All Zeros",
+      "input": "2\n0 0",
+      "expected": "0\n0\nSum: 0"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Single element",
+      "input": "1\n100",
+      "expected": "100\nSum: 100"
+    },
+    {
+      "name": "Large numbers",
+      "input": "4\n1000 2000 3000 4000",
+      "expected": "1000\n2000\n3000\n4000\nSum: 10000"
+    }
+  ]
+}

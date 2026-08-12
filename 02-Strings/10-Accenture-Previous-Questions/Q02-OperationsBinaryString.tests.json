@@ -1,0 +1,43 @@
+{
+  "question_id": "ACC-STR-H02",
+  "title": "Operations Binary String",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "1C0C1C1A0B1",
+      "expected": "1"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "1A0B1C1",
+      "expected": "0"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "1",
+      "expected": "1"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "0B0B0C1A1",
+      "expected": "1"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "1A1A1A1",
+      "expected": "1"
+    },
+    {
+      "name": "Hidden edge case 5",
+      "input": "0B1A0C1",
+      "expected": "1"
+    }
+  ]
+}

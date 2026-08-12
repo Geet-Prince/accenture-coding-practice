@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-011",
+  "title": "Divisibility Check",
+  "visible": [
+    {
+      "name": "Divisible by both",
+      "input": "15\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Divisible by 3 only",
+      "input": "9\n",
+      "expected": "No\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Divisible by 5 only",
+      "input": "10\n",
+      "expected": "No\n"
+    },
+    {
+      "name": "Divisible by neither",
+      "input": "7\n",
+      "expected": "No\n"
+    }
+  ]
+}

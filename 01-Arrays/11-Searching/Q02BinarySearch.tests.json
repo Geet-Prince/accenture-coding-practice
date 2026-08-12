@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-11-002",
+  "title": "Binary Search",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n1 3 5 7 9\n5",
+      "expected": "2"
+    },
+    {
+      "name": "Not present",
+      "input": "4\n2 4 6 8\n5",
+      "expected": "-1"
+    },
+    {
+      "name": "One element",
+      "input": "1\n10\n10",
+      "expected": "0"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden case 1",
+      "input": "6\n-10 -5 0 5 10 15\n-10",
+      "expected": "0"
+    },
+    {
+      "name": "Hidden case 2",
+      "input": "6\n-10 -5 0 5 10 15\n15",
+      "expected": "5"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-GEN-001",
+  "title": "OperationsBinaryString",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "3\n1 2 3",
+      "expected": "6"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "1\n5",
+      "expected": "5"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "4\n1 1 1 1",
+      "expected": "4"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden 1",
+      "input": "0",
+      "expected": "0"
+    },
+    {
+      "name": "Hidden 2",
+      "input": "5\n2 4 6 8 10",
+      "expected": "30"
+    },
+    {
+      "name": "Hidden 3",
+      "input": "2\n-1 1",
+      "expected": "0"
+    }
+  ]
+}

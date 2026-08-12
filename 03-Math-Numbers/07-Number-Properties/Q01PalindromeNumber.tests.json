@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-013",
+  "title": "Palindrome Number",
+  "visible": [
+    {
+      "name": "Palindrome",
+      "input": "121\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Not palindrome",
+      "input": "123\n",
+      "expected": "No\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Ending in zero",
+      "input": "10\n",
+      "expected": "No\n"
+    },
+    {
+      "name": "Single digit",
+      "input": "7\n",
+      "expected": "Yes\n"
+    }
+  ]
+}

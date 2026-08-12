@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-STR-H05",
+  "title": "Most Frequent Vowel",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "accenture",
+      "expected": "e"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "preparation",
+      "expected": "a"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "xyz",
+      "expected": "None"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "AEIOUaeiou",
+      "expected": "a"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "euouae",
+      "expected": "e"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "hello world",
+      "expected": "o"
+    }
+  ]
+}

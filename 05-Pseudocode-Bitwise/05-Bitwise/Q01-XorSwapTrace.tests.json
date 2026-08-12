@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-PSEUDO-B01",
+  "title": "XOR Swap Trace",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "",
+      "expected": "a=3 b=5"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "dummy",
+      "expected": "a=3 b=5"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "1 2 3",
+      "expected": "a=3 b=5"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "a",
+      "expected": "a=3 b=5"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "b",
+      "expected": "a=3 b=5"
+    }
+  ]
+}

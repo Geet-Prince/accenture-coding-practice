@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-MAT-002",
+  "title": "Reverse Number",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "1234\n",
+      "expected": "4321\n"
+    },
+    {
+      "name": "Ending in zero",
+      "input": "120\n",
+      "expected": "21\n"
+    },
+    {
+      "name": "Negative",
+      "input": "-987\n",
+      "expected": "-789\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Zero",
+      "input": "0\n",
+      "expected": "0\n"
+    },
+    {
+      "name": "Palindrome",
+      "input": "121\n",
+      "expected": "121\n"
+    }
+  ]
+}

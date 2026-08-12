@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-03-02",
+  "title": "DecimalToNBase",
+  "visible": [
+    {"name": "Basic case 1", "input": "12\n718", "expected": "4BA"},
+    {"name": "Basic case 2", "input": "21\n5678", "expected": "CI8"},
+    {"name": "Basic case 3", "input": "2\n10", "expected": "1010"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "16\n255", "expected": "FF"},
+    {"name": "Hidden 2", "input": "8\n100", "expected": "144"}
+  ]
+}

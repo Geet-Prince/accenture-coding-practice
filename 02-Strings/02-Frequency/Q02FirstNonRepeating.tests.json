@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-002",
+  "title": "First Non-Repeating Character",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "accenture\n",
+      "expected": "0\n"
+    },
+    {
+      "name": "No non-repeating",
+      "input": "aabb\n",
+      "expected": "-1\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Last character non-repeating",
+      "input": "aab\n",
+      "expected": "2\n"
+    },
+    {
+      "name": "All unique",
+      "input": "abc\n",
+      "expected": "0\n"
+    }
+  ]
+}

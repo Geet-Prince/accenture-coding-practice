@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-07-02",
+  "title": "ArmstrongNumber",
+  "visible": [
+    {"name": "Basic case 1", "input": "153", "expected": "1"},
+    {"name": "Basic case 2", "input": "123", "expected": "0"},
+    {"name": "Basic case 3", "input": "370", "expected": "1"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "9474", "expected": "1"},
+    {"name": "Hidden 2", "input": "10", "expected": "0"}
+  ]
+}

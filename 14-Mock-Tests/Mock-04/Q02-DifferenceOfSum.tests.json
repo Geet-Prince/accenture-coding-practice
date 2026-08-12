@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-04-02",
+  "title": "DifferenceOfSum",
+  "visible": [
+    {"name": "Basic case 1", "input": "4\n20", "expected": "90"},
+    {"name": "Basic case 2", "input": "3\n10", "expected": "19"},
+    {"name": "Basic case 3", "input": "5\n15", "expected": "60"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "10\n100", "expected": "4050"},
+    {"name": "Hidden 2", "input": "1\n10", "expected": "55"}
+  ]
+}

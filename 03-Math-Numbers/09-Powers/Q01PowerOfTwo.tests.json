@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-017",
+  "title": "Power of Two Check",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "16\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Not power of 2",
+      "input": "18\n",
+      "expected": "No\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "One",
+      "input": "1\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Large power",
+      "input": "1073741824\n",
+      "expected": "Yes\n"
+    }
+  ]
+}

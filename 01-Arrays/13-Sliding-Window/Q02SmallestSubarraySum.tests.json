@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-13-002",
+  "title": "Smallest Subarray with Sum Greater Than or Equal to Target",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "6\n2 3 1 2 4 3\n7",
+      "expected": "2"
+    },
+    {
+      "name": "No such subarray",
+      "input": "3\n1 1 1\n10",
+      "expected": "0"
+    },
+    {
+      "name": "One element",
+      "input": "4\n1 4 4 1\n4",
+      "expected": "1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden case 1",
+      "input": "8\n1 1 1 1 1 1 1 1\n8",
+      "expected": "8"
+    },
+    {
+      "name": "Hidden case 2",
+      "input": "5\n1 2 3 4 5\n11",
+      "expected": "3"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "ACC-07-001",
+  "title": "Balanced Parentheses",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "[()]{}{[()()]()}",
+      "expected": "true"
+    },
+    {
+      "name": "Edge visible case",
+      "input": "[(])",
+      "expected": "false"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case",
+      "input": "{{{{{{",
+      "expected": "false"
+    }
+  ]
+}

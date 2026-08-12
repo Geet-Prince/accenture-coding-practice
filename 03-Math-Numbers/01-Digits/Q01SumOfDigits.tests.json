@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-MAT-001",
+  "title": "Sum of Digits",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "1234\n",
+      "expected": "10\n"
+    },
+    {
+      "name": "Zero",
+      "input": "0\n",
+      "expected": "0\n"
+    },
+    {
+      "name": "Negative",
+      "input": "-987\n",
+      "expected": "24\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Large number",
+      "input": "999999999\n",
+      "expected": "81\n"
+    },
+    {
+      "name": "Single digit",
+      "input": "7\n",
+      "expected": "7\n"
+    }
+  ]
+}

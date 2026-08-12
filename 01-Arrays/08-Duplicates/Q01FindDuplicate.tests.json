@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-08-001",
+  "title": "Find Duplicate",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n0 2 1 3 2",
+      "expected": "2"
+    },
+    {
+      "name": "Small case",
+      "input": "2\n0 0",
+      "expected": "0"
+    },
+    {
+      "name": "End duplicate",
+      "input": "4\n0 1 2 2",
+      "expected": "2"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden case 1",
+      "input": "6\n4 3 2 1 0 3",
+      "expected": "3"
+    },
+    {
+      "name": "Hidden case 2",
+      "input": "3\n1 1 0",
+      "expected": "1"
+    }
+  ]
+}

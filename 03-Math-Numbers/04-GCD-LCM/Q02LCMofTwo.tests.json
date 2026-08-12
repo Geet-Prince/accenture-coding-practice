@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-008",
+  "title": "LCM of Two Numbers",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "4 6\n",
+      "expected": "12\n"
+    },
+    {
+      "name": "Co-prime",
+      "input": "7 5\n",
+      "expected": "35\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Same numbers",
+      "input": "15 15\n",
+      "expected": "15\n"
+    },
+    {
+      "name": "Multiple",
+      "input": "10 50\n",
+      "expected": "50\n"
+    }
+  ]
+}

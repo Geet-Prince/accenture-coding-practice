@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-007",
+  "title": "GCD of Two Numbers",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "48 18\n",
+      "expected": "6\n"
+    },
+    {
+      "name": "Co-prime",
+      "input": "7 13\n",
+      "expected": "1\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Same numbers",
+      "input": "20 20\n",
+      "expected": "20\n"
+    },
+    {
+      "name": "Large numbers",
+      "input": "1000000000 500000000\n",
+      "expected": "500000000\n"
+    }
+  ]
+}

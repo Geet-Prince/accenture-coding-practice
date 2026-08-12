@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-07-002",
+  "title": "Next Greater Element",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "4\n1 3 2 4",
+      "expected": "3 4 4 -1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Descending array",
+      "input": "3\n5 4 3",
+      "expected": "-1 -1 -1"
+    }
+  ]
+}

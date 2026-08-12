@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-ARR-T02",
+  "title": "Array Sum and Average",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "6\n3 -1 0 5 -2 0",
+      "expected": "Sum: 5\nAverage: 0.83\nPositives: 2\nNegatives: 2\nZeros: 2"
+    },
+    {
+      "name": "All positives",
+      "input": "4\n1 2 3 4",
+      "expected": "Sum: 10\nAverage: 2.50\nPositives: 4\nNegatives: 0\nZeros: 0"
+    },
+    {
+      "name": "All zeros",
+      "input": "3\n0 0 0",
+      "expected": "Sum: 0\nAverage: 0.00\nPositives: 0\nNegatives: 0\nZeros: 3"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Single element negative",
+      "input": "1\n-5",
+      "expected": "Sum: -5\nAverage: -5.00\nPositives: 0\nNegatives: 1\nZeros: 0"
+    },
+    {
+      "name": "Mixed exact division",
+      "input": "4\n-1 -1 -1 -1",
+      "expected": "Sum: -4\nAverage: -1.00\nPositives: 0\nNegatives: 4\nZeros: 0"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-ARR-M01",
+  "title": "Find Minimum and Maximum",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n3 1 4 1 5",
+      "expected": "Max: 5\nMin: 1"
+    },
+    {
+      "name": "All same",
+      "input": "4\n2 2 2 2",
+      "expected": "Max: 2\nMin: 2"
+    },
+    {
+      "name": "Sorted",
+      "input": "3\n1 2 3",
+      "expected": "Max: 3\nMin: 1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Single element",
+      "input": "1\n42",
+      "expected": "Max: 42\nMin: 42"
+    },
+    {
+      "name": "Negative elements",
+      "input": "4\n-5 -1 -10 -2",
+      "expected": "Max: -1\nMin: -10"
+    }
+  ]
+}

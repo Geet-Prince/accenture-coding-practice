@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-04-051",
+  "title": "First Duplicate",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "4\n2 1 3 1",
+      "expected": "1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "No duplicates",
+      "input": "3\n1 2 3",
+      "expected": "-1"
+    }
+  ]
+}

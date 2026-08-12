@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-MATH-H03",
+  "title": "Max Exponent of 2",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "7\n12",
+      "expected": "8"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "4\n8",
+      "expected": "8"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "1\n3",
+      "expected": "2"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "5\n10",
+      "expected": "8"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "10\n10",
+      "expected": "10"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "7\n11",
+      "expected": "8"
+    }
+  ]
+}

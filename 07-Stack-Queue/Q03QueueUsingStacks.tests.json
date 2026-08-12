@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-07-003",
+  "title": "Queue Using Stacks",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "3\n1 5\n1 10\n2",
+      "expected": "5"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Multiple dequeues",
+      "input": "5\n1 1\n1 2\n2\n1 3\n2",
+      "expected": "1 2"
+    }
+  ]
+}

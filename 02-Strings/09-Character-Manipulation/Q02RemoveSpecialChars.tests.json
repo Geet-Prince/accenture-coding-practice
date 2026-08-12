@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-016",
+  "title": "Remove Special Characters",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "hello@world!123\n",
+      "expected": "helloworld123\n"
+    },
+    {
+      "name": "Only special",
+      "input": "!@#$%\n",
+      "expected": "\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "No special",
+      "input": "abc123\n",
+      "expected": "abc123\n"
+    },
+    {
+      "name": "Special at ends",
+      "input": "!a#\n",
+      "expected": "a\n"
+    }
+  ]
+}

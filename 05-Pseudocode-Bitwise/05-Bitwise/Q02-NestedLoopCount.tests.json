@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-PSEUDO-B02",
+  "title": "Nested Loop Count Trace",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "",
+      "expected": "=== Code 1 ===\n10\n=== Code 2 ===\n5\n7\n7\n=== Code 3 ===\n* * * \n* * \n* "
+    },
+    {
+      "name": "Basic case 2",
+      "input": "dummy",
+      "expected": "=== Code 1 ===\n10\n=== Code 2 ===\n5\n7\n7\n=== Code 3 ===\n* * * \n* * \n* "
+    },
+    {
+      "name": "Basic case 3",
+      "input": "test",
+      "expected": "=== Code 1 ===\n10\n=== Code 2 ===\n5\n7\n7\n=== Code 3 ===\n* * * \n* * \n* "
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "a",
+      "expected": "=== Code 1 ===\n10\n=== Code 2 ===\n5\n7\n7\n=== Code 3 ===\n* * * \n* * \n* "
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "b",
+      "expected": "=== Code 1 ===\n10\n=== Code 2 ===\n5\n7\n7\n=== Code 3 ===\n* * * \n* * \n* "
+    }
+  ]
+}

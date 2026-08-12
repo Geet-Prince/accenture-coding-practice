@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-LL-H01",
+  "title": "Alternate Node Addition",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "",
+      "expected": "4 → 6 → 8 → 4 → 5"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "dummy",
+      "expected": "4 → 6 → 8 → 4 → 5"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "test",
+      "expected": "4 → 6 → 8 → 4 → 5"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "a",
+      "expected": "4 → 6 → 8 → 4 → 5"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "b",
+      "expected": "4 → 6 → 8 → 4 → 5"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-06-01",
+  "title": "MoveHyphenToFront",
+  "visible": [
+    {"name": "Basic case 1", "input": "String-Compare", "expected": "-StringCompare"},
+    {"name": "Basic case 2", "input": "Hello-World-2023", "expected": "--HelloWorld2023"},
+    {"name": "Basic case 3", "input": "NoHyphen", "expected": "NoHyphen"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "---", "expected": "---"},
+    {"name": "Hidden 2", "input": "-a-b-c-", "expected": "----abc"}
+  ]
+}

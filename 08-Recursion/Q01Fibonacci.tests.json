@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-08-001",
+  "title": "Fibonacci",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5",
+      "expected": "5"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case 0",
+      "input": "0",
+      "expected": "0"
+    }
+  ]
+}

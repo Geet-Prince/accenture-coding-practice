@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-05-01",
+  "title": "AutobiographicalNumber",
+  "visible": [
+    {"name": "Basic case 1", "input": "1210", "expected": "3"},
+    {"name": "Basic case 2", "input": "2020", "expected": "2"},
+    {"name": "Basic case 3", "input": "123", "expected": "0"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "21200", "expected": "3"},
+    {"name": "Hidden 2", "input": "3211000", "expected": "4"}
+  ]
+}

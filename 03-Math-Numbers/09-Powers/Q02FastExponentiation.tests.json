@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-018",
+  "title": "Fast Exponentiation",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "2 5\n",
+      "expected": "32\n"
+    },
+    {
+      "name": "Large base",
+      "input": "10 2\n",
+      "expected": "100\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Large power",
+      "input": "2 1000000000\n",
+      "expected": "140625001\n"
+    },
+    {
+      "name": "B is zero",
+      "input": "5 0\n",
+      "expected": "1\n"
+    }
+  ]
+}

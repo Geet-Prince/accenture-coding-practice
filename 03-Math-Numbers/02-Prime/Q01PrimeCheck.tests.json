@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-MAT-003",
+  "title": "Prime Check",
+  "visible": [
+    {
+      "name": "Basic prime",
+      "input": "7\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Basic non-prime",
+      "input": "10\n",
+      "expected": "No\n"
+    },
+    {
+      "name": "One",
+      "input": "1\n",
+      "expected": "No\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Two",
+      "input": "2\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Large prime",
+      "input": "999983\n",
+      "expected": "Yes\n"
+    }
+  ]
+}

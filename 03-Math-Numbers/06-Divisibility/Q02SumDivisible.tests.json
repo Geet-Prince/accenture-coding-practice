@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-012",
+  "title": "Sum of Numbers Divisible by K",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "10 3\n",
+      "expected": "18\n"
+    },
+    {
+      "name": "K greater than N",
+      "input": "5 10\n",
+      "expected": "0\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "K equals 1",
+      "input": "100 1\n",
+      "expected": "5050\n"
+    },
+    {
+      "name": "Large values",
+      "input": "100000 2\n",
+      "expected": "2500050000\n"
+    }
+  ]
+}

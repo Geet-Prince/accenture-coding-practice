@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-014",
+  "title": "Neon Number",
+  "visible": [
+    {
+      "name": "Neon 9",
+      "input": "9\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Not neon",
+      "input": "12\n",
+      "expected": "No\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Neon 1",
+      "input": "1\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Zero",
+      "input": "0\n",
+      "expected": "Yes\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-04-012",
+  "title": "First Repeating Element",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n1 5 3 4 3",
+      "expected": "3"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "No repeating",
+      "input": "3\n1 2 3",
+      "expected": "-1"
+    }
+  ]
+}

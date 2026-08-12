@@ -1,0 +1,23 @@
+{
+  "question_id": "ACC-STR-004",
+  "title": "Reverse Words in a String",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "the sky is blue\n",
+      "expected": "blue is sky the\n"
+    },
+    {
+      "name": "Single word",
+      "input": "hello\n",
+      "expected": "hello\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Two words",
+      "input": "hello world\n",
+      "expected": "world hello\n"
+    }
+  ]
+}

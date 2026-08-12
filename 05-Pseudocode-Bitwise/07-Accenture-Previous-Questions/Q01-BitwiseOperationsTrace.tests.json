@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-PSEUDO-H01",
+  "title": "Bitwise Operations Trace",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "",
+      "expected": "=== AND ===\n8\n=== OR ===\n14\n=== XOR ===\n6\n=== LEFT SHIFT ===\n12\n=== RIGHT SHIFT ===\n3"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "dummy",
+      "expected": "=== AND ===\n8\n=== OR ===\n14\n=== XOR ===\n6\n=== LEFT SHIFT ===\n12\n=== RIGHT SHIFT ===\n3"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "test",
+      "expected": "=== AND ===\n8\n=== OR ===\n14\n=== XOR ===\n6\n=== LEFT SHIFT ===\n12\n=== RIGHT SHIFT ===\n3"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "a",
+      "expected": "=== AND ===\n8\n=== OR ===\n14\n=== XOR ===\n6\n=== LEFT SHIFT ===\n12\n=== RIGHT SHIFT ===\n3"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "b",
+      "expected": "=== AND ===\n8\n=== OR ===\n14\n=== XOR ===\n6\n=== LEFT SHIFT ===\n12\n=== RIGHT SHIFT ===\n3"
+    }
+  ]
+}

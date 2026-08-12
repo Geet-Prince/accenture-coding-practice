@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-12-002",
+  "title": "Container with Most Water",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "4\n1 8 6 2",
+      "expected": "6"
+    },
+    {
+      "name": "Small case",
+      "input": "2\n1 1",
+      "expected": "1"
+    },
+    {
+      "name": "Decreasing",
+      "input": "5\n5 4 3 2 1",
+      "expected": "6"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden case 1",
+      "input": "7\n2 3 4 5 18 17 6",
+      "expected": "17"
+    },
+    {
+      "name": "Hidden case 2",
+      "input": "3\n10 0 10",
+      "expected": "20"
+    }
+  ]
+}

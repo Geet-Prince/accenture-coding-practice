@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-09-01",
+  "title": "EquilibriumIndex",
+  "visible": [
+    {"name": "Basic case 1", "input": "5\n1 2 3 3 0", "expected": "2"},
+    {"name": "Basic case 2", "input": "3\n1 2 3", "expected": "-1"},
+    {"name": "Basic case 3", "input": "4\n1 1 1 1", "expected": "-1"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "1\n5", "expected": "0"},
+    {"name": "Hidden 2", "input": "7\n-7 1 5 2 -4 3 0", "expected": "3"}
+  ]
+}

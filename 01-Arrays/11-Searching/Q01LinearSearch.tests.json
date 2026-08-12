@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-11-001",
+  "title": "Linear Search",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n10 20 30 40 50\n30",
+      "expected": "2"
+    },
+    {
+      "name": "Not present",
+      "input": "4\n1 2 3 4\n5",
+      "expected": "-1"
+    },
+    {
+      "name": "First element",
+      "input": "3\n7 8 9\n7",
+      "expected": "0"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden case 1",
+      "input": "5\n1 1 1 1 1\n1",
+      "expected": "0"
+    },
+    {
+      "name": "Hidden case 2",
+      "input": "2\n100 200\n200",
+      "expected": "1"
+    }
+  ]
+}

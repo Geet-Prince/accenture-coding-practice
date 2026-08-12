@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-015",
+  "title": "Toggle Case",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "aCcEnTuRe\n",
+      "expected": "AcCeNtUrE\n"
+    },
+    {
+      "name": "With numbers",
+      "input": "HeLlo123\n",
+      "expected": "hElLO123\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "All lowercase",
+      "input": "abc\n",
+      "expected": "ABC\n"
+    },
+    {
+      "name": "All uppercase",
+      "input": "XYZ\n",
+      "expected": "xyz\n"
+    }
+  ]
+}

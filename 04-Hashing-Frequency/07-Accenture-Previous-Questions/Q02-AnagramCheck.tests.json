@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-HASH-H02",
+  "title": "Anagram Check",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "Listen\nSilent",
+      "expected": "Yes"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "hello\nworld",
+      "expected": "No"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "Debit Card\nBad Credit",
+      "expected": "Yes"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "rat\ncar",
+      "expected": "No"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "aBcd\ndcBA",
+      "expected": "Yes"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "a\nb",
+      "expected": "No"
+    }
+  ]
+}

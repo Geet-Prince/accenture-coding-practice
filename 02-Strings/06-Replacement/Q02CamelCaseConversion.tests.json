@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-010",
+  "title": "Camel Case Conversion",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "hello_world\n",
+      "expected": "helloWorld\n"
+    },
+    {
+      "name": "Multiple words",
+      "input": "this_is_a_test\n",
+      "expected": "thisIsATest\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "No underscores",
+      "input": "singleword\n",
+      "expected": "singleword\n"
+    },
+    {
+      "name": "Consecutive underscores",
+      "input": "hello__world\n",
+      "expected": "helloWorld\n"
+    }
+  ]
+}

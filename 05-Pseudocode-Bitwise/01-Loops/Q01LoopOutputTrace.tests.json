@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-05-011",
+  "title": "Loop Output Trace",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5",
+      "expected": "15"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case 1",
+      "input": "1",
+      "expected": "1"
+    }
+  ]
+}

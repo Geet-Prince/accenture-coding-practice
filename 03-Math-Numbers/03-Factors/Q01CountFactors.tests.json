@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-MAT-005",
+  "title": "Count Factors",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "12\n",
+      "expected": "6\n"
+    },
+    {
+      "name": "One",
+      "input": "1\n",
+      "expected": "1\n"
+    },
+    {
+      "name": "Prime",
+      "input": "7\n",
+      "expected": "2\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Perfect square",
+      "input": "36\n",
+      "expected": "9\n"
+    },
+    {
+      "name": "Large number",
+      "input": "1000000000\n",
+      "expected": "100\n"
+    }
+  ]
+}

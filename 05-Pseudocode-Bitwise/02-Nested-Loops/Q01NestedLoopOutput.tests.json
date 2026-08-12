@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-05-021",
+  "title": "Nested Loop Output",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "3",
+      "expected": "9"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case",
+      "input": "1",
+      "expected": "1"
+    }
+  ]
+}

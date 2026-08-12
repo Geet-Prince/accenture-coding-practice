@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-008",
+  "title": "Group Anagrams",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "eat tea tan ate nat bat\n",
+      "expected": "3\n"
+    },
+    {
+      "name": "No anagrams",
+      "input": "a b c\n",
+      "expected": "3\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "All anagrams",
+      "input": "ab ba ab\n",
+      "expected": "1\n"
+    },
+    {
+      "name": "Single word",
+      "input": "hello\n",
+      "expected": "1\n"
+    }
+  ]
+}

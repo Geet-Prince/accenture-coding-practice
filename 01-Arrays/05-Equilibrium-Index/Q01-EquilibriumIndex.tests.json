@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-ARR-E01",
+  "title": "Equilibrium Index",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "7\n-7 1 5 2 -4 3 0",
+      "expected": "3"
+    },
+    {
+      "name": "No equilibrium",
+      "input": "3\n1 2 3",
+      "expected": "-1"
+    },
+    {
+      "name": "Edge left",
+      "input": "3\n0 1 -1",
+      "expected": "0"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge right",
+      "input": "3\n1 -1 0",
+      "expected": "2"
+    },
+    {
+      "name": "Single element",
+      "input": "1\n10",
+      "expected": "0"
+    }
+  ]
+}

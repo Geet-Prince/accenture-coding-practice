@@ -1,0 +1,43 @@
+{
+  "question_id": "ACC-MATH-H04",
+  "title": "Armstrong Number Check",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "153",
+      "expected": "Armstrong"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "1634",
+      "expected": "Armstrong"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "100",
+      "expected": "Not Armstrong"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "9",
+      "expected": "Armstrong"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "-153",
+      "expected": "Not Armstrong"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "9474",
+      "expected": "Armstrong"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "9475",
+      "expected": "Not Armstrong"
+    }
+  ]
+}

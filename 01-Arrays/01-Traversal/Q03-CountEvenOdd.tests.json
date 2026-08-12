@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-ARR-T03",
+  "title": "Count Even and Odd Numbers",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n1 2 3 4 5",
+      "expected": "Even: 2, Odd: 3"
+    },
+    {
+      "name": "All even",
+      "input": "4\n2 4 6 8",
+      "expected": "Even: 4, Odd: 0"
+    },
+    {
+      "name": "All odd",
+      "input": "3\n1 3 5",
+      "expected": "Even: 0, Odd: 3"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Single element",
+      "input": "1\n0",
+      "expected": "Even: 1, Odd: 0"
+    },
+    {
+      "name": "Negative numbers",
+      "input": "4\n-2 -3 -4 -5",
+      "expected": "Even: 2, Odd: 2"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-006",
+  "title": "Perfect Number",
+  "visible": [
+    {
+      "name": "Basic perfect",
+      "input": "28\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "Basic non-perfect",
+      "input": "12\n",
+      "expected": "No\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Six",
+      "input": "6\n",
+      "expected": "Yes\n"
+    },
+    {
+      "name": "One",
+      "input": "1\n",
+      "expected": "No\n"
+    }
+  ]
+}

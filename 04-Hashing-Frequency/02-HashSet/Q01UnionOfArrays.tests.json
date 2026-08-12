@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-04-021",
+  "title": "Union of Arrays",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "3\n1 2 3\n3\n2 3 4",
+      "expected": "1 2 3 4"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Distinct elements",
+      "input": "2\n1 2\n2\n3 4",
+      "expected": "1 2 3 4"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-ARR-H01",
+  "title": "RatCountHouse",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "7\n2\n8\n2 8 3 5 7 4 1 2",
+      "expected": "4"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "0\n0\n0",
+      "expected": "0"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "10\n2\n5\n1 2 3 4 5",
+      "expected": "0"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden 1",
+      "input": "1\n1\n1\n1",
+      "expected": "1"
+    },
+    {
+      "name": "Hidden 2",
+      "input": "20\n3\n6\n4 2 6 8 4 9",
+      "expected": "4"
+    },
+    {
+      "name": "Hidden 3",
+      "input": "5\n2\n0\n",
+      "expected": "0"
+    }
+  ]
+}

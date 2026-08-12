@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-007",
+  "title": "Anagram Check",
+  "visible": [
+    {
+      "name": "Basic case true",
+      "input": "listen silent\n",
+      "expected": "true\n"
+    },
+    {
+      "name": "Basic case false",
+      "input": "hello world\n",
+      "expected": "false\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Different length",
+      "input": "a ab\n",
+      "expected": "false\n"
+    },
+    {
+      "name": "Same chars different frequency",
+      "input": "aab abb\n",
+      "expected": "false\n"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Java compiled output
+*.class
+*.jar
+*.war
+*.ear
+
+# Build output (test runner temp files)
+.build/
+bin/
+out/
+target/
+build/
+
+# IDE files (keep .vscode for tasks.json and keybindings)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

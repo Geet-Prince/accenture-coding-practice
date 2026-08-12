@@ -1,0 +1,17 @@
+[
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Accenture: Run Current Question"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Accenture: Run All Tests"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Accenture: Compile Current Question"
+    }
+]

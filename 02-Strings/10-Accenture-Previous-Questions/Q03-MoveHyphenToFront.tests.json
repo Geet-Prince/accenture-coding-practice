@@ -1,0 +1,43 @@
+{
+  "question_id": "ACC-STR-H03",
+  "title": "Move Hyphen to Front",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "Move-Hyphens-to-Front",
+      "expected": "---MoveHyphenstoFront"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "---abc",
+      "expected": "---abc"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "a-b-c-d",
+      "expected": "---abcd"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "noHyphens",
+      "expected": "noHyphens"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "----",
+      "expected": "----"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "-start-and-end-",
+      "expected": "---startandend"
+    },
+    {
+      "name": "Hidden edge case 5",
+      "input": "a",
+      "expected": "a"
+    }
+  ]
+}

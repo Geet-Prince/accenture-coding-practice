@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-05-041",
+  "title": "Complex Trace",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "2",
+      "expected": "4"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case",
+      "input": "1",
+      "expected": "2"
+    }
+  ]
+}

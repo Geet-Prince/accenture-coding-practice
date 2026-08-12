@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-ARR-H01",
+  "title": "Rat Count House",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "7\n2\n8\n2 8 3 5 7 4 1 2",
+      "expected": "4"
+    },
+    {
+      "name": "Insufficient food",
+      "input": "5\n3\n4\n1 2 3 4",
+      "expected": "0"
+    },
+    {
+      "name": "Empty array (n=0)",
+      "input": "3\n2\n0",
+      "expected": "-1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "First house sufficient",
+      "input": "2\n2\n3\n5 1 1",
+      "expected": "1"
+    },
+    {
+      "name": "Zero rats",
+      "input": "0\n2\n3\n1 1 1",
+      "expected": "0"
+    },
+    {
+      "name": "Exact match",
+      "input": "3\n3\n3\n3 3 3",
+      "expected": "3"
+    }
+  ]
+}

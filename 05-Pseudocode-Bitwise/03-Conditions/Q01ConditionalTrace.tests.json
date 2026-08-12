@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-05-031",
+  "title": "Conditional Trace",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "10 5",
+      "expected": "15"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case",
+      "input": "5 5",
+      "expected": "10"
+    }
+  ]
+}

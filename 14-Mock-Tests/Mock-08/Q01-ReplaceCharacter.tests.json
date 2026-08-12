@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-08-01",
+  "title": "ReplaceCharacter",
+  "visible": [
+    {"name": "Basic case 1", "input": "apples\na\np", "expected": "paales"},
+    {"name": "Basic case 2", "input": "hello\nl\no", "expected": "heool"},
+    {"name": "Basic case 3", "input": "world\nw\nd", "expected": "dorlw"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "aaaa\na\nb", "expected": "bbbb"},
+    {"name": "Hidden 2", "input": "test\nx\ny", "expected": "test"}
+  ]
+}

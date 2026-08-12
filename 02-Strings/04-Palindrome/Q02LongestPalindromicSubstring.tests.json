@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-006",
+  "title": "Longest Palindromic Substring",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "babad\n",
+      "expected": "bab\n"
+    },
+    {
+      "name": "Even length",
+      "input": "cbbd\n",
+      "expected": "bb\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Single character",
+      "input": "a\n",
+      "expected": "a\n"
+    },
+    {
+      "name": "All same",
+      "input": "aaaa\n",
+      "expected": "aaaa\n"
+    }
+  ]
+}

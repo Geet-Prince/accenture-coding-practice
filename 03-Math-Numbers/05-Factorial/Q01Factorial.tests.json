@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-009",
+  "title": "Factorial of a Number",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n",
+      "expected": "120\n"
+    },
+    {
+      "name": "Zero",
+      "input": "0\n",
+      "expected": "1\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Large N",
+      "input": "100\n",
+      "expected": "438099244\n"
+    },
+    {
+      "name": "One",
+      "input": "1\n",
+      "expected": "1\n"
+    }
+  ]
+}

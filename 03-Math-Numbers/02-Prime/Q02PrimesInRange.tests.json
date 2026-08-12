@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-004",
+  "title": "Primes in Range",
+  "visible": [
+    {
+      "name": "Basic range",
+      "input": "10 20\n",
+      "expected": "4\n"
+    },
+    {
+      "name": "Small range",
+      "input": "1 10\n",
+      "expected": "4\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Large range",
+      "input": "1 10000\n",
+      "expected": "1229\n"
+    },
+    {
+      "name": "Same L and R",
+      "input": "7 7\n",
+      "expected": "1\n"
+    }
+  ]
+}

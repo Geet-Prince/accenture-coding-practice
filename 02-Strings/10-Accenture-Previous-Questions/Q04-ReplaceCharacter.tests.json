@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-STR-H04",
+  "title": "Replace Character",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "apples\na\np",
+      "expected": "paales"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "apple\na\np",
+      "expected": "paale"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "hello\nl\ne",
+      "expected": "hleoo"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "test\nt\nt",
+      "expected": "test"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "onlyone\nz\nx",
+      "expected": "onlyone"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "zzzz\nz\nx",
+      "expected": "xxxx"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-014",
+  "title": "Substring Count",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "abcabcabc abc\n",
+      "expected": "3\n"
+    },
+    {
+      "name": "Not present",
+      "input": "hello world\n",
+      "expected": "0\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Overlapping non-counted",
+      "input": "aaaa aa\n",
+      "expected": "2\n"
+    },
+    {
+      "name": "Substring longer",
+      "input": "ab abcdef\n",
+      "expected": "0\n"
+    }
+  ]
+}

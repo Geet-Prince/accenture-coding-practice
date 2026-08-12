@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-016",
+  "title": "Binary to Decimal",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "1010\n",
+      "expected": "10\n"
+    },
+    {
+      "name": "Zero",
+      "input": "0\n",
+      "expected": "0\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "All ones",
+      "input": "1111\n",
+      "expected": "15\n"
+    },
+    {
+      "name": "Power of 2",
+      "input": "100000\n",
+      "expected": "32\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-08-003",
+  "title": "String Permutations",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "abc",
+      "expected": "abc acb bac bca cab cba"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Short case",
+      "input": "ab",
+      "expected": "ab ba"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-010",
+  "title": "Trailing Zeros in Factorial",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n",
+      "expected": "1\n"
+    },
+    {
+      "name": "Less than 5",
+      "input": "4\n",
+      "expected": "0\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "100",
+      "input": "100\n",
+      "expected": "24\n"
+    },
+    {
+      "name": "Large number",
+      "input": "1000000000\n",
+      "expected": "249999998\n"
+    }
+  ]
+}

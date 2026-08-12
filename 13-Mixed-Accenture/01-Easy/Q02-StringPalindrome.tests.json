@@ -1,0 +1,43 @@
+{
+  "question_id": "ACC-MIX-E02",
+  "title": "String Palindrome Check",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "racecar",
+      "expected": "1"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "hello",
+      "expected": "0"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "A man, a plan, a canal: Panama",
+      "expected": "1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "Abba",
+      "expected": "1"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "race car",
+      "expected": "1"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "hello world",
+      "expected": "0"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "a",
+      "expected": "1"
+    }
+  ]
+}

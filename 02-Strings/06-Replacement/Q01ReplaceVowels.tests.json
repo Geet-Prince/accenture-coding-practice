@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-009",
+  "title": "Replace Vowels",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "accenture\n",
+      "expected": "*cc*nt*r*\n"
+    },
+    {
+      "name": "Uppercase vowels",
+      "input": "AEIOU\n",
+      "expected": "*****\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "No vowels",
+      "input": "bcdfg\n",
+      "expected": "bcdfg\n"
+    },
+    {
+      "name": "Mixed case",
+      "input": "hEllo\n",
+      "expected": "h*ll*\n"
+    }
+  ]
+}

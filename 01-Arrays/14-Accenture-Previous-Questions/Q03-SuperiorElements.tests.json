@@ -1,0 +1,38 @@
+{
+  "question_id": "ACC-ARR-H03",
+  "title": "Superior Elements",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "6\n16 17 4 3 5 2",
+      "expected": "3"
+    },
+    {
+      "name": "Strictly decreasing",
+      "input": "5\n5 4 3 2 1",
+      "expected": "5"
+    },
+    {
+      "name": "Strictly increasing",
+      "input": "5\n1 2 3 4 5",
+      "expected": "1"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Single element",
+      "input": "1\n42",
+      "expected": "1"
+    },
+    {
+      "name": "All equal",
+      "input": "4\n2 2 2 2",
+      "expected": "1"
+    },
+    {
+      "name": "Mixed elements",
+      "input": "6\n1 2 5 4 3 2",
+      "expected": "4"
+    }
+  ]
+}

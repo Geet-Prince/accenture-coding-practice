@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-08-002",
+  "title": "Tower of Hanoi",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "3",
+      "expected": "7"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Larger case",
+      "input": "4",
+      "expected": "15"
+    }
+  ]
+}

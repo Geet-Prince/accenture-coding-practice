@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-MAT-015",
+  "title": "Decimal to Binary",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "10\n",
+      "expected": "1010\n"
+    },
+    {
+      "name": "Zero",
+      "input": "0\n",
+      "expected": "0\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Power of 2",
+      "input": "16\n",
+      "expected": "10000\n"
+    },
+    {
+      "name": "Large number",
+      "input": "255\n",
+      "expected": "11111111\n"
+    }
+  ]
+}

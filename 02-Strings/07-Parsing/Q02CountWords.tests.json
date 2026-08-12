@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-012",
+  "title": "Count Words",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "the sky is blue\n",
+      "expected": "4\n"
+    },
+    {
+      "name": "Extra spaces",
+      "input": "  hello   world  \n",
+      "expected": "2\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Empty or spaces only",
+      "input": "     \n",
+      "expected": "0\n"
+    },
+    {
+      "name": "Single word",
+      "input": "word\n",
+      "expected": "1\n"
+    }
+  ]
+}

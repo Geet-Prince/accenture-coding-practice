@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-003",
+  "title": "Reverse String",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "hello\n",
+      "expected": "olleh\n"
+    },
+    {
+      "name": "Single character",
+      "input": "a\n",
+      "expected": "a\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Palindrome",
+      "input": "madam\n",
+      "expected": "madam\n"
+    },
+    {
+      "name": "With spaces",
+      "input": "a b c\n",
+      "expected": "c b a\n"
+    }
+  ]
+}

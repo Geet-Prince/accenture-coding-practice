@@ -1,0 +1,13 @@
+{
+  "question_id": "ACC-MOCK-08-02",
+  "title": "AnagramCheck",
+  "visible": [
+    {"name": "Basic case 1", "input": "listen\nsilent", "expected": "1"},
+    {"name": "Basic case 2", "input": "hello\nworld", "expected": "0"},
+    {"name": "Basic case 3", "input": "triangle\nintegral", "expected": "1"}
+  ],
+  "hidden": [
+    {"name": "Hidden 1", "input": "a\na", "expected": "1"},
+    {"name": "Hidden 2", "input": "ab\nba", "expected": "1"}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question_id": "ACC-MATH-H02",
+  "title": "Decimal to N-Base Conversion",
+  "visible": [
+    {
+      "name": "Basic case 1",
+      "input": "12\n718",
+      "expected": "4BA"
+    },
+    {
+      "name": "Basic case 2",
+      "input": "2\n10",
+      "expected": "1010"
+    },
+    {
+      "name": "Basic case 3",
+      "input": "16\n255",
+      "expected": "FF"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Hidden edge case 1",
+      "input": "10\n0",
+      "expected": "0"
+    },
+    {
+      "name": "Hidden edge case 2",
+      "input": "36\n1000",
+      "expected": "RS"
+    },
+    {
+      "name": "Hidden edge case 3",
+      "input": "10\n9999",
+      "expected": "9999"
+    },
+    {
+      "name": "Hidden edge case 4",
+      "input": "8\n64",
+      "expected": "100"
+    }
+  ]
+}

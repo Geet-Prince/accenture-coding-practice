@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-05-061",
+  "title": "Recursion Trace",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "3",
+      "expected": "6"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case",
+      "input": "1",
+      "expected": "1"
+    }
+  ]
+}

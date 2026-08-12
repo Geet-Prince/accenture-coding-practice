@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-04-041",
+  "title": "Most Frequent Character",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "success",
+      "expected": "s"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Tie breaker",
+      "input": "aabb",
+      "expected": "a"
+    }
+  ]
+}

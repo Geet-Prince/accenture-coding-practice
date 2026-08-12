@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-04-032",
+  "title": "Top K Frequent Elements",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "6\n1 1 1 2 2 3\n2",
+      "expected": "1 2"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "K is 1",
+      "input": "3\n5 5 2\n1",
+      "expected": "5"
+    }
+  ]
+}

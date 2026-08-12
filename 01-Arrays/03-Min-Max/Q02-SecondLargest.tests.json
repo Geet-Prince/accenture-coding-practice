@@ -1,0 +1,33 @@
+{
+  "question_id": "ACC-ARR-M02",
+  "title": "Second Largest",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "5\n10 5 10 8 9",
+      "expected": "9"
+    },
+    {
+      "name": "All same",
+      "input": "4\n2 2 2 2",
+      "expected": "-1"
+    },
+    {
+      "name": "Sorted",
+      "input": "3\n1 2 3",
+      "expected": "2"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Length 1",
+      "input": "1\n42",
+      "expected": "-1"
+    },
+    {
+      "name": "Negative elements",
+      "input": "4\n-5 -1 -10 -2",
+      "expected": "-2"
+    }
+  ]
+}

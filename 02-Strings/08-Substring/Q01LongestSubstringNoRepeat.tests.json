@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-013",
+  "title": "Longest Substring Without Repeating Characters",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "abcabcbb\n",
+      "expected": "3\n"
+    },
+    {
+      "name": "All same",
+      "input": "bbbbb\n",
+      "expected": "1\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Empty string",
+      "input": "\n",
+      "expected": "0\n"
+    },
+    {
+      "name": "Another basic case",
+      "input": "pwwkew\n",
+      "expected": "3\n"
+    }
+  ]
+}

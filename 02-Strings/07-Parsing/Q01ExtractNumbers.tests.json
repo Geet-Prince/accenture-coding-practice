@@ -1,0 +1,28 @@
+{
+  "question_id": "ACC-STR-011",
+  "title": "Extract Numbers",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "abc123def45\n",
+      "expected": "12345\n"
+    },
+    {
+      "name": "No digits",
+      "input": "helloworld\n",
+      "expected": "\n"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Only digits",
+      "input": "98765\n",
+      "expected": "98765\n"
+    },
+    {
+      "name": "Digits at ends",
+      "input": "1abc2\n",
+      "expected": "12\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "ACC-12-001",
+  "title": "Climbing Stairs",
+  "visible": [
+    {
+      "name": "Basic case",
+      "input": "4",
+      "expected": "5"
+    }
+  ],
+  "hidden": [
+    {
+      "name": "Edge case",
+      "input": "1",
+      "expected": "1"
+    }
+  ]
+}
