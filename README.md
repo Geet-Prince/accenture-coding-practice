@@ -63,24 +63,41 @@ This repository is highly specific and useful for:
 ```text
 Accenture-Coding-Prep/
 │
-├── 01-Arrays/
-├── 02-Strings/
-├── 03-Math-Numbers/
-├── 04-Hashing-Frequency/
-├── 05-Pseudocode-Bitwise/
+├── .build/                 # Hidden directory for compiled Java files
+├── .vscode/                # VS Code workspace settings (tasks.json for automation)
 │
-├── solutions/
-├── hints/
-├── scripts/
-├── .vscode/
+├── 01-Arrays/              # S-Tier (High Priority)
+├── 02-Strings/             # S-Tier (High Priority)
+├── 03-Math-Numbers/        # S-Tier (High Priority)
+├── 04-Hashing-Frequency/   # S-Tier (High Priority)
+├── 05-Pseudocode-Bitwise/  # A-Tier (For Stage 1 filter)
+├── 06-Linked-List/
+├── 07-Stack-Queue/
+├── 08-Recursion/
+├── 09-Greedy/
+├── 10-Trees/               
+├── 11-Graphs/              
+├── 12-Dynamic-Programming/ 
+├── 13-Mixed-Accenture/     
+├── 14-Mock-Tests/          # 10 timed (45-min) mock exams
 │
-├── README.md
-├── ROADMAP.md
-├── SYLLABUS.md
-├── PROGRESS.md
-├── QUESTION_INDEX.md
-├── ADD-QUESTIONS.md
-└── TESTING.md
+├── hints/                  # Additional logic hints and helpers
+├── img/                    # Assets for documentation
+├── scripts/                # PowerShell test runners (`run-test.ps1`, etc.)
+├── solutions/              # Master solutions
+│
+├── ADD-QUESTIONS.md        # Guide on adding new questions
+├── AI-TEACHER.md           # Prompt framework for AI tutors
+├── PROGRESS.md             # Manual gamified progress tracker
+├── QUESTION_INDEX.md       # Master list of all questions
+├── README.md               # The main entry map
+├── RESEARCH.md             # Accenture hiring patterns research
+├── ROADMAP.md              # 30-Day study plan
+├── SOURCES.md              # Research sources
+├── START-HERE.md           # Quick setup guide
+├── SYLLABUS.md             # Detailed syllabus breakdown
+├── TESTING.md              # Automated testing guide
+└── run_error.md            # AI prompt template for test errors
 ```
 
 ---
