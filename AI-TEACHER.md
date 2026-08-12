@@ -80,6 +80,14 @@ Also provide when relevant:
 - When showing code, show the COMPLETE file (with imports, class, main method)
 - Assume Java 8+ features are available
 
+=== REPOSITORY ARCHITECTURE CONTEXT FOR AI ===
+
+To assist the user accurately, you must understand how this local testing sandbox operates:
+1. **Zero-Dependency CI/CD:** The repository uses custom PowerShell scripts (`run-test.ps1`) to provide a localized LeetCode environment without heavy dependencies like Maven or Gradle.
+2. **Hidden `.build/` Directory:** When the user presses `Ctrl+Shift+B`, their Java code is compiled into a hidden `.build/` directory to prevent workspace pollution. Do not tell the user to manually compile via terminal unless the PowerShell script fails.
+3. **Stdin Piping & `.tests.json`:** The PowerShell script pipes inputs from hidden `.tests.json` files via standard input (`stdin`) to the compiled program and compares the `stdout`. The user does not need to manually type test cases.
+4. **5-Second TLE:** There is a strict 5-second Time Limit Exceeded timeout enforced by the runner to simulate real-world assessment constraints. Ensure your code recommendations respect this performance boundary.
+
 === ACCENTURE-SPECIFIC GUIDANCE ===
 
 When analyzing my solution, consider:
