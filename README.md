@@ -1,60 +1,85 @@
-# 🚀 Accenture Coding Prep
+# Accenture 2027 ASE/AASE Java Coding Practice + Offline Test Sandbox
 
-> A research-based, Java-first coding preparation repository for the 2027 Accenture placement assessments (ASE & AASE).
+A curated Java coding practice repository for **Accenture 2027 ASE/AASE placements**, featuring topic-wise problems sourced from **2020–2026 drives**, mock practice tracks, and an **automated offline testing sandbox** for fast local validation.
+
+If you're preparing for Accenture coding rounds, this repo helps you practice consistently with structured DSA sets, repeatable test workflows, and placement-focused progression.
 
 [![GitHub Stars](https://img.shields.io/github/stars/Geet-Prince/accenture-coding-practice?style=social)](https://github.com/Geet-Prince/accenture-coding-practice)
 [![Java](https://img.shields.io/badge/Java-Zero%20Dependency-orange.svg)](https://java.com)
 [![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2027_Batch-blue.svg)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
-
-## 🎯 Goal
-
-Prepare systematically for Accenture coding assessments by practicing historically reported questions and the patterns behind them.
-
----
-
-## 📖 About
-
-This standalone repository is designed for students preparing for Accenture coding assessments. It operates as a fully automated local LeetCode-style environment. 
-
-It contains:
-- Accenture historical coding questions
-- Pattern-based practice questions
-- Java solutions
-- Automated test cases
-- Custom VS Code test runner
-- Topic-wise syllabus
-- Progress tracking
-- 10 Mock tests
-- 30-Day Study roadmap
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Geet-Prince/accenture-coding-practice)](https://github.com/Geet-Prince/accenture-coding-practice/commits/main)
 
 ---
 
 ## 👥 Who Is This For?
 
-This repository is highly specific and useful for:
-- Accenture placement preparation (2027 Batch)
-- Associate Software Engineer (ASE) preparation
-- Advanced Associate Software Engineer (AASE) preparation
-- Students preparing for the Stage 1 Cognitive & Technical filter
-- Students wanting structured, offline Java coding practice (includes historical questions from 2020 to 2026 and extra practice patterns)
+- Students preparing for **Accenture ASE coding questions 2027**
+- Students targeting **Accenture AASE Java practice** rounds
+- Anyone looking for an **offline Java test runner for placement prep**
+- Students who want to clear the **Stage 1 Cognitive & Technical filter**
+- Anyone preparing for **Accenture off-campus and on-campus drives**
 
 ---
 
 ## ✨ Features
 
-- 📚 **Research-based Accenture question bank:** Highly requested historical questions like *Rat Count House*, *Difference of Sum*, etc.
-- ☕ **Java-first practice:** Zero-dependency Java architecture.
-- 🧪 **Automatic test-case execution:** PowerShell scripts evaluate your code in milliseconds.
-- 🖥️ **VS Code-based workflow:** Fully integrated into your local editor.
-- 🎯 **Topic-wise organization:** Targeted specifically at the Accenture assessment structure.
-- 📈 **Progress tracking:** Built-in gamified progression matrices.
-- 🧠 **AI teacher support:** Graduated hint system for Copilot/ChatGPT.
-- ⏱️ **Mock tests:** 10 simulated 45-minute timed sessions.
-- 🔍 **Historical question classification:** S-Tier and A-Tier categorization.
-- 📝 **Detailed problem statements:** Clear, concise formatting.
+| Feature | Description |
+| :--- | :--- |
+| 📚 **Research-based question bank** | 76+ problems from Accenture drives (2020–2026), including *Rat Count House*, *Difference of Sum*, *Password Checker* |
+| ☕ **Java-first practice** | Zero-dependency Java architecture (no Maven, no Gradle) |
+| 🧪 **Automatic test execution** | PowerShell scripts compile, run, and validate your code in milliseconds |
+| 🖥️ **VS Code integration** | Press `Ctrl+Shift+B` and see instant PASS/FAIL results |
+| 🎯 **Topic-wise organization** | 14 directories mapped to the Accenture assessment structure |
+| 📈 **Progress tracking** | Gamified tracking (Attempted / Solved / Mastered) |
+| 🧠 **AI Teacher** | Graduated hint system for ChatGPT/Copilot/Gemini |
+| ⏱️ **10 Mock tests** | Timed 45-minute simulations mirroring the real exam |
+| 🗺️ **30-Day roadmap** | Structured plan + 7-Day Emergency Plan |
+| 🔍 **S-Tier / A-Tier classification** | Know exactly what to study and what to skip |
+
+---
+
+## ⚡ Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Geet-Prince/accenture-coding-practice.git
+```
+
+### 2. Open the exact folder in VS Code
+> [!WARNING]
+> **Do NOT** open a parent directory. Open VS Code → **File > Open Folder...** → select the cloned `accenture-coding-practice` folder directly. The `.vscode` folder must be at the workspace root for automation to work.
+
+### 3. Install PowerShell (if not on Windows)
+- **Ubuntu/Debian:** `sudo snap install powershell --classic`
+- **macOS:** `brew install --cask powershell`
+- **Windows:** Already built-in.
+
+### 4. Open a question and run tests
+```
+Open: 01-Arrays/01-Traversal/Q02-ArraySum.java
+Press: Ctrl + Shift + B
+```
+The test runner automatically compiles your code, pipes hidden test cases via `stdin`, and displays a colorful PASS/FAIL diff.
+
+👉 **[Detailed Testing Guide](TESTING.md)** · **[Offline Sandbox Architecture](JAVA-OFFLINE-TEST-SANDBOX.md)**
+
+---
+
+## 📋 Problem Index (Top Confirmed Questions)
+
+| ID | Question | Year | Topic | Difficulty | Priority | File |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| ACC-ARR-H01 | Rat Count House | 2020–2024 | Arrays | EASY | S | [`Q01-RatCountHouse.java`](01-Arrays/14-Accenture-Previous-Questions/Q01-RatCountHouse.java) |
+| ACC-ARR-H02 | Product Smallest Pair | 2020–2025 | Arrays | EASY | S | [`Q02-ProductSmallestPair.java`](01-Arrays/14-Accenture-Previous-Questions/Q02-ProductSmallestPair.java) |
+| ACC-ARR-K01 | Maximum Subarray (Kadane) | 2022–2024 | Arrays | MEDIUM | S | [`Q01-MaximumSubarray.java`](01-Arrays/06-Kadanes-Algorithm/Q01-MaximumSubarray.java) |
+| ACC-STR-H01 | Password Checker | 2021–2024 | Strings | MEDIUM | S | [`Q01-PasswordChecker.java`](02-Strings/10-Accenture-Previous-Questions/Q01-PasswordChecker.java) |
+| ACC-STR-H02 | Operations Binary String | 2020–2024 | Strings | MEDIUM | S | [`Q02-OperationsBinaryString.java`](02-Strings/10-Accenture-Previous-Questions/Q02-OperationsBinaryString.java) |
+| ACC-MATH-H01 | Difference of Sum | 2020–2026 | Math | EASY | S | [`Q01-DifferenceOfSum.java`](03-Math-Numbers/10-Accenture-Previous-Questions/Q01-DifferenceOfSum.java) |
+| ACC-HASH-H01 | Autobiographical Number | 2022–2024 | Hashing | MEDIUM | S | [`Q01-AutobiographicalNumber.java`](04-Hashing-Frequency/07-Accenture-Previous-Questions/Q01-AutobiographicalNumber.java) |
+| ACC-PSEUDO-H01 | Bitwise Operations Trace | 2021–2024 | Pseudocode | MEDIUM | S | [`Q01-BitwiseOperationsTrace.java`](05-Pseudocode-Bitwise/07-Accenture-Previous-Questions/Q01-BitwiseOperationsTrace.java) |
+
+👉 **[Full Question Index (41+ problems)](QUESTION_INDEX.md)**
 
 ---
 
@@ -63,92 +88,87 @@ This repository is highly specific and useful for:
 ```text
 Accenture-Coding-Prep/
 │
-├── .build/                 # Hidden directory for compiled Java files
-├── .vscode/                # VS Code workspace settings (tasks.json for automation)
+├── .build/                 # Hidden compiled output (auto-managed)
+├── .vscode/                # VS Code tasks.json for test automation
 │
-├── 01-Arrays/              # S-Tier (High Priority)
-├── 02-Strings/             # S-Tier (High Priority)
-├── 03-Math-Numbers/        # S-Tier (High Priority)
-├── 04-Hashing-Frequency/   # S-Tier (High Priority)
-├── 05-Pseudocode-Bitwise/  # A-Tier (For Stage 1 filter)
+├── 01-Arrays/              # S-Tier — High Priority
+├── 02-Strings/             # S-Tier — High Priority
+├── 03-Math-Numbers/        # S-Tier — High Priority
+├── 04-Hashing-Frequency/   # S-Tier — High Priority
+├── 05-Pseudocode-Bitwise/  # A-Tier — Stage 1 filter
 ├── 06-Linked-List/
 ├── 07-Stack-Queue/
 ├── 08-Recursion/
 ├── 09-Greedy/
-├── 10-Trees/               
-├── 11-Graphs/              
-├── 12-Dynamic-Programming/ 
-├── 13-Mixed-Accenture/     
-├── 14-Mock-Tests/          # 10 timed (45-min) mock exams
+├── 10-Trees/
+├── 11-Graphs/
+├── 12-Dynamic-Programming/
+├── 13-Mixed-Accenture/
+├── 14-Mock-Tests/          # 10 timed 45-min mock exams
 │
-├── hints/                  # Additional logic hints and helpers
-├── img/                    # Assets for documentation
-├── scripts/                # PowerShell test runners (`run-test.ps1`, etc.)
+├── hints/                  # Logic hints
+├── img/                    # Documentation assets
+├── scripts/                # PowerShell runners (run-test.ps1)
 ├── solutions/              # Master solutions
 │
-├── ADD-QUESTIONS.md        # Guide on adding new questions
-├── AI-TEACHER.md           # Prompt framework for AI tutors
-├── PROGRESS.md             # Manual gamified progress tracker
-├── QUESTION_INDEX.md       # Master list of all questions
-├── README.md               # The main entry map
-├── RESEARCH.md             # Accenture hiring patterns research
-├── ROADMAP.md              # 30-Day study plan
-├── SOURCES.md              # Research sources
-├── START-HERE.md           # Quick setup guide
-├── SYLLABUS.md             # Detailed syllabus breakdown
-├── TESTING.md              # Automated testing guide
-└── run_error.md            # AI prompt template for test errors
+├── README.md               # You are here
+├── START-HERE.md            # First-time setup guide
+├── SYLLABUS.md              # Complete syllabus breakdown
+├── ROADMAP.md               # 30-Day study plan
+├── QUESTION_INDEX.md        # Master problem list
+├── PROGRESS.md              # Progress tracker
+├── TESTING.md               # Testing system docs
+├── AI-TEACHER.md            # AI tutor prompts
+├── ADD-QUESTIONS.md         # How to contribute questions
+├── RESEARCH.md              # Accenture hiring research
+├── SOURCES.md               # Research sources
+├── FAQ.md                   # Frequently asked questions
+├── CONTRIBUTING.md          # Contribution guidelines
+├── CHANGELOG.md             # Version history
+└── LICENSE                  # MIT License
 ```
 
 ---
 
-## 📚 Syllabus
+## 📚 Accenture 2027 Syllabus Summary
 
-### S-Tier (High Priority)
-- Arrays
-- Strings
-- Mathematics & Numbers
-- Hashing & Frequency
+### S-Tier (Must Master)
+- **Arrays** — Traversal, Kadane's, Equilibrium Index, Prefix Sum
+- **Strings** — Parsing, validation, frequency, manipulation
+- **Math & Numbers** — Divisibility, digit extraction, base conversion
+- **Hashing & Frequency** — Counting, anagram detection
 
-### A-Tier (For Stage 1 Elimination)
-- Pseudocode & Bitwise
+### A-Tier (Stage 1 Cognitive & Technical Filter)
+- **Pseudocode & Bitwise** — Output tracing, XOR, operator precedence
 
-### The "Do Not Study" List
-- Dynamic Programming, Graphs, Trees (Rarely asked in 45-minute rounds).
+### Do Not Study (Skip These)
+- ❌ Dynamic Programming · ❌ Graphs · ❌ Trees
 
 👉 **[Complete Syllabus](SYLLABUS.md)**
 
 ---
 
-## ⚡ Getting Started
+## 🗺️ Accenture 2027 Preparation Roadmap
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Geet-Prince/accenture-coding-practice.git
+**30-Day Plan:** Arrays → Strings → Math → Hashing → Pseudocode → Mixed → Mock Tests
+
+**7-Day Emergency Plan** also included for last-minute preparation.
+
+👉 **[30-Day Roadmap](ROADMAP.md)** · **[ASE/AASE 2027 Roadmap](ACCENTURE-ASE-AASE-2027-ROADMAP.md)**
+
+---
+
+## 🧪 How the Automated Testing Works
+
+Each question has two files:
+```text
+Q01-RatCountHouse.java        ← Your solution
+Q01-RatCountHouse.tests.json  ← Hidden test cases
 ```
 
-### 2. ⚠️ Open the exact folder in VS Code
-Open VS Code, click **File > Open Folder...**, and explicitly select the cloned `accenture-coding-practice` folder. (Do not open a parent downloads folder, or the automated tests will fail to run).
+Press **`Ctrl+Shift+B`** → the PowerShell runner compiles your code into `.build/`, pipes test inputs via `stdin`, enforces a 5-second TLE timeout, and displays PASS/FAIL with expected vs. actual diff.
 
-### 3. Start with Arrays
-Navigate to `01-Arrays/`
-
-### 4. Open a question
-Example:
-`01-Arrays/01-Traversal/Q02ArraySum.java`
-
-### 5. Write your solution
-Keep all logic within the designated `calculate()` block.
-
-### 6. Run tests
-Press: **`Ctrl + Shift + B`** (or your mapped shortcut `Ctrl + Alt + T`).
-
-The test runner automatically:
-- compiles the Java file into `.build/`
-- loads the hidden JSON test cases
-- executes them with a 5-second timeout constraint
-- compares expected and actual output
-- displays a colorful PASS/FAIL diff
+👉 **[Testing Guide](TESTING.md)** · **[Offline Sandbox Details](JAVA-OFFLINE-TEST-SANDBOX.md)**
 
 ---
 
@@ -156,110 +176,60 @@ The test runner automatically:
 
 - Java 17+ (or Java 8+)
 - VS Code
-- PowerShell (Built-in on Windows; installable on macOS/Linux)
+- PowerShell (built-in on Windows)
 - Git
 
-*Recommended:* Extension Pack for Java
-
----
-
-## 🧪 Automatic Testing
-
-Each question contains two files:
-- `Q01ArraySum.java` (Contains the problem and your solution)
-- `Q01ArraySum.tests.json` (Contains the hidden test cases)
-
-When you trigger the build task, the test runner automatically compiles your code, loads the tests, pipes them via `stdin`, compares `stdout`, and outputs PASS/FAIL.
-
-👉 **[Testing Guide](TESTING.md)**
-
----
-
-## 🔍 Example
-
-```text
-01-Arrays/
-└── 01-Traversal/
-    ├── Q01BasicTraversal.java
-    └── Q01BasicTraversal.tests.json
-```
-Open the `.java` file, write your solution, and run the tests.
+*Recommended:* [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 ---
 
 ## 📊 Progress Tracking
 
-Use `PROGRESS.md` to track:
-- Questions attempted and solved
-- Time taken per question
-- Weak topics vs. Mastered topics
+Track your status per question: **Attempted → Solved → Mastered**, with time spent and hints used.
 
 👉 **[Progress Tracker](PROGRESS.md)**
 
 ---
 
-## 🗺️ Study Roadmap
-
-The recommended 30-day progression is:
-Arrays → Strings → Math & Numbers → Hashing → Pseudocode & Bitwise → Mixed Practice → Mock Tests
-
-👉 **[Study Roadmap](ROADMAP.md)**
-
----
-
-## ➕ Adding New Questions
-
-Want to add a question? Every question normally consists of:
-```text
-Question.java
-Question.tests.json
-```
-This prevents contributors from randomly dumping files into the repository. 
-
-👉 **[Adding Questions Guide](ADD-QUESTIONS.md)**
-
----
-
 ## 🤖 AI Teacher
 
-You can use an AI coding teacher (ChatGPT, Copilot, Gemini) to:
-- understand the problem conceptually
-- receive progressive hints
-- debug your code without being handed the direct answer
-- analyze time/space complexity
+Use the built-in AI Teacher prompt with ChatGPT, Copilot, or Gemini to receive **graduated hints** (Diagnosis → Conceptual → Algorithmic → Pseudocode → Solution) instead of raw answers.
 
 👉 **[AI Teacher Guide](AI-TEACHER.md)**
 
 ---
 
+## ❓ Frequently Asked Questions
+
+Common questions like *"What topics are asked in Accenture coding rounds?"*, *"Is DP asked?"*, *"How long is the assessment?"* are answered in:
+
+👉 **[FAQ](FAQ.md)**
+
+---
+
+## ➕ Adding New Questions
+
+Every question consists of a `.java` file and a matching `.tests.json` file. Follow the naming convention and folder structure.
+
+👉 **[Adding Questions Guide](ADD-QUESTIONS.md)** · **[Contributing Guidelines](CONTRIBUTING.md)**
+
+---
+
 ## ⚖️ Historical Question Disclaimer
 
-Questions marked as historical are based on publicly available candidate reports and online sources. Historical wording may be reconstructed or paraphrased. Questions marked as `Practice Variant` are created for preparation and should not be considered actual exact Accenture questions. 
+Questions marked as historical are based on publicly available candidate reports and online sources. Historical wording may be reconstructed or paraphrased. Questions marked as `Practice Variant` are created for preparation and should not be considered exact Accenture questions.
 
 ---
 
-## 🔬 Research
+## 🔬 Research & Sources
 
-The repository's syllabus and historical question classification are based on publicly available sources and candidate experiences.
-
-👉 **[Research](RESEARCH.md)**
-👉 **[Sources](SOURCES.md)**
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome. Before adding a question:
-1. Check for duplicates.
-2. Use the correct topic folder.
-3. Add the `.java` file and matching `.tests.json`.
-4. Verify the question using the test runner.
+👉 **[Research](RESEARCH.md)** · **[Sources](SOURCES.md)**
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
@@ -267,3 +237,7 @@ This project is licensed under the MIT License.
 
 **Prince Raj**
 GitHub: [Geet-Prince](https://github.com/Geet-Prince)
+
+---
+
+If this automated sandbox helped your Accenture preparation, please consider giving the repository a ⭐ to help other students discover it.

@@ -1,4 +1,8 @@
-# 📋 Master Question Index (Accenture 2026 Batch - Custom Software Engineer - Off Campus Drive)
+# 📋 Master Question Index — Accenture ASE/AASE 2027 Coding Practice (Historical Questions 2020–2026)
+
+> Complete index of all coding problems in this repository. Questions marked CONFIRMED are sourced from publicly reported Accenture placement drives (2020–2026). Practice Variants are pattern-based questions created for additional preparation.
+
+👉 **[Back to README](README.md)**
 
 | ID | Question | Year | Topic | Difficulty | Status | Priority | File |
 |----|----------|------|-------|------------|--------|----------|------|
