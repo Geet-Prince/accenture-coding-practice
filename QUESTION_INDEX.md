@@ -1,4 +1,4 @@
-# 📋 Master Question Index
+# 📋 Master Question Index (Accenture 2026 Batch - Custom Software Engineer - Off Campus Drive)
 
 | ID | Question | Year | Topic | Difficulty | Status | Priority | File |
 |----|----------|------|-------|------------|--------|----------|------|

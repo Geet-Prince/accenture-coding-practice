@@ -1,4 +1,4 @@
-# 📚 Evidence-Based Syllabus
+# 📚 Evidence-Based Syllabus (Accenture 2026 Batch - Custom Software Engineer - Off Campus Drive)
 
 > Priority based on historical frequency (2020–2026), NOT generic DSA importance.
 
