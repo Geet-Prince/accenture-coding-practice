@@ -36,14 +36,38 @@ The latest Accenture selection process consists of 3 rounds and 5 sections (125 
 
 *Note: You must clear the Technical & Cognitive cutoff to have your Coding Assessment evaluated!*
 
-## 🚀 Getting Started
+## 🚀 3-Minute Quick Start
 
-1. **Clone the repository.**
-2. **Install PowerShell (If on Linux/Mac):**
-   * Ubuntu/Debian: `sudo snap install powershell --classic`
-   * MacOS: `brew install --cask powershell`
-   * Windows: Already installed by default!
-3. **Run a Test:** Open any `.java` question file and press `Ctrl+Shift+B` (the native Build shortcut). The test runner will automatically detect your OS, compile the code, run the hidden test cases, and show the PASS/FAIL UI.
+**Transform your local VS Code into a fully automated, LeetCode-style testing environment!** No more manual compilation or copying test cases—just write code and see instant results.
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/YOUR-USERNAME/accenture-coding-practice.git
+```
+
+### 2️⃣ ⚠️ CRITICAL: Open the Exact Folder
+> [!WARNING]
+> **The "Nested Folder" Trap:** DO NOT open a parent directory (e.g., a general Downloads or Clone Repos folder) that contains the repository. 
+> VS Code will only detect the automated test scripts if the `.vscode` folder is at the very root of your workspace.
+> 
+> **Do this instead:** Open VS Code, click **File > Open Folder...**, and explicitly select the cloned `accenture-coding-practice` folder.
+
+### 3️⃣ Install the Testing Engine (PowerShell)
+The local testing engine is built on PowerShell.
+* **Ubuntu/Debian:**
+  ```bash
+  sudo snap install powershell --classic
+  ```
+* **macOS:**
+  ```bash
+  brew install --cask powershell
+  ```
+* **Windows:** You're all set! (Built-in by default)
+
+### 4️⃣ Run Your First Test (The "Aha!" Moment) 🪄
+1. Open any question file in the editor (e.g., `01-Arrays/01-Traversal/Q02ArraySum.java`).
+2. Press **`Ctrl+Shift+B`** (VS Code's native Build shortcut).
+3. **Watch the magic happen!** The system will automatically compile your Java file, pipe the hidden test cases into your code, and output a colorful **PASS/FAIL** UI directly in the terminal!
 
 ---
 
