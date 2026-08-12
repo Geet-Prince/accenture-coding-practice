@@ -1,6 +1,6 @@
 [
     {
-        "key": "ctrl+shift+r",
+        "key": "ctrl+shift+}",
         "command": "workbench.action.tasks.runTask",
         "args": "Accenture: Run Current Question"
     },
