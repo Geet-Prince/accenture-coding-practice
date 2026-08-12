@@ -44,7 +44,7 @@ The latest Accenture selection process consists of 3 rounds and 5 sections (125 
 2. **Open in VS Code.**
 3. **Navigate to any question**, e.g., `01-Arrays/14-Accenture-Previous-Questions/Q01-RatCountHouse.java`.
 4. **Write your logic** inside the `calculate()` method.
-5. **Run the Tests:** Press `Ctrl+Shift+T` to trigger the automated test runner. It will compile your `.java` file, run it against the `.tests.json` inputs, and output a colorful PASS/FAIL UI directly in your terminal.
+5. **Run the Tests:** Press `Ctrl+Shift+R` to trigger the automated test runner. It will compile your `.java` file, run it against the `.tests.json` inputs, and output a colorful PASS/FAIL UI directly in your terminal.
 
 *(Mac/Linux users: You must have PowerShell Core installed to execute the test runner).*
 
@@ -56,11 +56,11 @@ We designed this repository so you don't have to worry about manual compilation 
 
 ### How Test Cases Run Automatically 🪄
 Every question file (e.g., `Q01-BasicTraversal.java`) is linked to a hidden `.tests.json` file in the same folder.
-- When you press **`Ctrl+Shift+T`**, a script wakes up, compiles your code into a hidden `.build/` folder, feeds the inputs from the JSON file into your code, and checks your output!
+- When you press **`Ctrl+Shift+R`**, a script wakes up, compiles your code into a hidden `.build/` folder, feeds the inputs from the JSON file into your code, and checks your output!
 
 > [!IMPORTANT]
 > **Keyboard Shortcuts Not Working?**  
-> If pressing `Ctrl+Shift+T` does **not** work for you, you can always manually trigger the tests using the Command Palette:
+> If pressing `Ctrl+Shift+R` does **not** work for you, you can always manually trigger the tests using the Command Palette:
 > 1. Press **`Ctrl+Shift+P`** to open the Command Palette.
 > 2. Type and search for **`Tasks: Run Task`** and hit Enter.
 > 3. Select **`Accenture: Run Current Question`** from the dropdown list.

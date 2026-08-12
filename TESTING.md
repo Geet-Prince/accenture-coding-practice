@@ -6,7 +6,7 @@ This repository includes a complete **LeetCode-style testing system** that runs 
 
 Your workflow:
 ```
-Open .java file → Write code → Press Ctrl+Alt+T → Get verdict
+Open .java file → Write code → Press Ctrl+Shift+R → Get verdict
 ```
 
 No web app. No manual input. No copying test cases.
@@ -26,7 +26,7 @@ No web app. No manual input. No copying test cases.
 
 | Method | How |
 |--------|-----|
-| **Keyboard** | `Ctrl + Alt + T` |
+| **Keyboard** | `Ctrl + Shift + R` |
 | **VS Code Task** | `Terminal → Run Task → Accenture: Run Current Question` |
 | **PowerShell** | `.\scripts\run-test.ps1 path\to\Question.java` |
 
@@ -77,7 +77,7 @@ Available via `Terminal → Run Task`:
 
 | Task | Shortcut | Description |
 |------|----------|-------------|
-| Accenture: Run Current Question | `Ctrl+Alt+T` | Run visible tests on the currently open file |
+| Accenture: Run Current Question | `Ctrl+Shift+R` | Run visible tests on the currently open file |
 | Accenture: Run All Tests | `Ctrl+Alt+A` | Run visible + hidden tests on current file |
 | Accenture: Compile Current Question | `Ctrl+Alt+C` | Compile only, no tests |
 | Accenture: Run All Repository Tests | — | Test every question in the repo |
