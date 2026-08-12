@@ -36,17 +36,14 @@ The latest Accenture selection process consists of 3 rounds and 5 sections (125 
 
 *Note: You must clear the Technical & Cognitive cutoff to have your Coding Assessment evaluated!*
 
-## ⚙️ Quick Start Guide (VS Code)
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Geet-Prince/accenture-coding-questions-2026.git
-   ```
-2. **Open in VS Code.**
-3. **Navigate to any question**, e.g., `01-Arrays/14-Accenture-Previous-Questions/Q01-RatCountHouse.java`.
-4. **Write your logic** inside the `calculate()` method.
-5. **Run the Tests:** Press `Ctrl+Shift+}` to trigger the automated test runner. It will compile your `.java` file, run it against the `.tests.json` inputs, and output a colorful PASS/FAIL UI directly in your terminal.
+## 🚀 Getting Started
 
-*(Mac/Linux users: You must have PowerShell Core installed to execute the test runner).*
+1. **Clone the repository.**
+2. **Install PowerShell (If on Linux/Mac):**
+   * Ubuntu/Debian: `sudo snap install powershell --classic`
+   * MacOS: `brew install --cask powershell`
+   * Windows: Already installed by default!
+3. **Run a Test:** Open any `.java` question file and press `Ctrl+Shift+B` (the native Build shortcut). The test runner will automatically detect your OS, compile the code, run the hidden test cases, and show the PASS/FAIL UI.
 
 ---
 
@@ -84,6 +81,17 @@ If you are completely stuck and don't understand an error:
 2. Copy the prompt template provided.
 3. Paste the template into your AI (ChatGPT/Claude/Gemini) along with your code and the terminal error.
 4. The AI will understand the exact structure of this workspace and tell you exactly how to fix your issue.
+
+### Custom Keybinding Setup (Optional)
+If you prefer to run tests using `Ctrl+Shift+}` instead of the default build menu, you must add it to your global VS Code settings:
+1. Open VS Code and press `Ctrl+K Ctrl+S` to open Keyboard Shortcuts.
+2. Click the small "Open Keyboard Shortcuts (JSON)" file icon in the top right corner.
+3. Paste this block into your keybindings array:
+    {
+        "key": "ctrl+shift+}",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Accenture: Run Current Question"
+    }
 
 ---
 
