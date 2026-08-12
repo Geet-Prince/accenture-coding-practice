@@ -4,12 +4,12 @@
 [![Java](https://img.shields.io/badge/Java-17%2B-orange.svg)](https://java.com)
 [![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2027_Batch-blue.svg)](#)
 
-The ultimate, fully automated local preparation environment for **Accenture Off-Campus Drives** and On-Campus placements for the **2025/2026 batches**. 
+The ultimate, fully automated local preparation environment for **Accenture Off-Campus Drives** and On-Campus placements for the **2027 batch**. 
 
 Designed specifically for the **Custom Software Engineer (ASE - Associate Software Engineer)** and **AASE (Advanced Application Engineering)** roles. This repository doesn't just give you the answers; it simulates the actual Accenture assessment platform locally using custom PowerShell testing architecture.
 
 ## 🚀 Why This Repository?
-Unlike generic DSA guides, this curriculum strictly follows the **updated Accenture Syllabus and Test Pattern for 2026**. Generic DSA (like complex Dynamic Programming, Graphs, and Trees) is rarely asked. We focus entirely on what gets you hired:
+Unlike generic DSA guides, this curriculum strictly follows the **updated Accenture Syllabus and Test Pattern for 2027**. Generic DSA (like complex Dynamic Programming, Graphs, and Trees) is rarely asked. We focus entirely on what gets you hired:
 
 1. **Arrays & Strings** (High Priority - Pattern Matching & Traversal)
 2. **Math & Number Properties** (High Priority)
@@ -17,13 +17,13 @@ Unlike generic DSA guides, this curriculum strictly follows the **updated Accent
 4. **Pseudocode & Bitwise** (Crucial for clearing the Stage 1 Cognitive & Technical Assessment filter)
 
 ## 📁 Repository Architecture & Features
-* **76+ Actual Accenture Coding Questions:** Covering historically repeated questions (e.g., *Rat Count House*, *Password Checker*, *Large Small Sum*).
+* **76+ Actual Accenture Coding Questions:** Covering historically repeated questions from **2020 to 2026** (e.g., *Rat Count House*, *Password Checker*, *Large Small Sum*).
 * **Automated Local LeetCode Environment:** Built-in PowerShell scripts (`run-test.ps1`) compile and run your Java code against both **visible and hidden test cases** (`.tests.json`).
 * **10 Full-Length Mock Tests:** Timed, 45-minute simulations combining Easy, Medium, and Advanced questions from previous recruitment drives.
 * **Graduated AI Hints:** A built-in framework (`AI-TEACHER.md`) to guide you from conceptual understanding to full pseudocode before revealing the final solution.
 * **30-Day Master Roadmap:** From basic syntax to advanced historical replicas. Includes a 7-Day Emergency Prep Plan.
 
-## 📝 Updated Accenture Exam Syllabus & Pattern (2026)
+## 📝 Updated Accenture Exam Syllabus & Pattern (2027)
 The latest Accenture selection process consists of 3 rounds and 5 sections (125 Questions in 175 minutes):
 
 | Assessment Round | Details | Questions | Time |
@@ -137,4 +137,4 @@ Here are a few of the highest-frequency confirmed questions available in this re
 - **ACC-HASH-H01:** Autobiographical Number (MEDIUM)
 
 ## 🤝 Contribution & Progress Tracking
-Track your daily completion status using the manual checkbox tables in `PROGRESS.md`. If you have a recent Accenture interview experience or a new coding question from a 2026 drive, please submit a Pull Request!
+Track your daily completion status using the manual checkbox tables in `PROGRESS.md`. If you have a recent Accenture interview experience or a new coding question from a 2026/2027 drive, please submit a Pull Request!
