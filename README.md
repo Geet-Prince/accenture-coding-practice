@@ -1,6 +1,6 @@
 # Accenture Coding Questions & Placement Preparation 2026 (ASE & AASE)
 
-[![GitHub Stars](https://img.shields.io/github/stars/Geet-Prince/accenture-coding-questions-2026?style=social)](https://github.com/Geet-Prince/accenture-coding-questions-2026)
+[![GitHub Stars](https://img.shields.io/github/stars/Geet-Prince/accenture-coding-practice?style=social)](https://github.com/Geet-Prince/accenture-coding-practice)
 [![Java](https://img.shields.io/badge/Java-17%2B-orange.svg)](https://java.com)
 [![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2026_Batch-blue.svg)](#)
 
@@ -42,7 +42,7 @@ The latest Accenture selection process consists of 3 rounds and 5 sections (125 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/accenture-coding-practice.git
+git clone https://github.com/Geet-Prince/accenture-coding-practice.git
 ```
 
 ### 2️⃣ ⚠️ CRITICAL: Open the Exact Folder
