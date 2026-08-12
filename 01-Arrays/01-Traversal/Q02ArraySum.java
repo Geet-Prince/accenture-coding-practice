@@ -73,7 +73,7 @@ public class Q02ArraySum {
         long sum = 0;
         int positives = 0;
         int negatives = 0;
-        int zeros = 0;
+        int zeros =1;
         
         for (int i = 0; i < n; i++) {
             int num = scanner.nextInt();

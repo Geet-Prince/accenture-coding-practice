@@ -2,7 +2,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/Geet-Prince/accenture-coding-practice?style=social)](https://github.com/Geet-Prince/accenture-coding-practice)
 [![Java](https://img.shields.io/badge/Java-17%2B-orange.svg)](https://java.com)
-[![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2026_Batch-blue.svg)](#)
+[![Accenture Hiring](https://img.shields.io/badge/Accenture_Hiring-2027_Batch-blue.svg)](#)
 
 The ultimate, fully automated local preparation environment for **Accenture Off-Campus Drives** and On-Campus placements for the **2025/2026 batches**. 
 
