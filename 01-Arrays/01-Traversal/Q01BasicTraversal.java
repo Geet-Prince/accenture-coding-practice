@@ -91,6 +91,6 @@ public class Q01BasicTraversal {
         for (int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
 
         // Write your solution here
-
+        
     }
 }

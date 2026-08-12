@@ -87,10 +87,18 @@ if ($javaContent -match 'public\s+class\s+(\w+)') {
 
 # Find test file
 $TestFile = Join-Path $JavaDir "$JavaFileName.tests.json"
-# Also try without hyphens in filename
 if (-not (Test-Path $TestFile)) {
-    $NoHyphenName = $JavaFileName -replace '-', ''
-    $TestFile = Join-Path $JavaDir "$NoHyphenName.tests.json"
+    # Match by ignoring hyphens in the filename
+    $normalizedJavaName = $JavaFileName -replace '-', ''
+    $AllTestFiles = Get-ChildItem -Path $JavaDir -Filter "*.tests.json"
+    foreach ($tf in $AllTestFiles) {
+        $tfBase = $tf.Name -replace '\.tests\.json$', ''
+        $normalizedTf = $tfBase -replace '-', ''
+        if ($normalizedTf -eq $normalizedJavaName -or $normalizedTf -eq $ClassName.ToLower()) {
+            $TestFile = $tf.FullName
+            break
+        }
+    }
 }
 # Also try matching by class name
 if (-not (Test-Path $TestFile)) {

@@ -3,9 +3,10 @@
     "tasks": [
         {
             "label": "Accenture: Run Current Question",
-            "type": "shell",
+            "type": "process",
             "command": "powershell",
             "args": [
+                "-NoProfile",
                 "-ExecutionPolicy", "Bypass",
                 "-File", "${workspaceFolder}/scripts/run-test.ps1",
                 "${file}"
@@ -16,7 +17,7 @@
             },
             "presentation": {
                 "reveal": "always",
-                "panel": "shared",
+                "panel": "dedicated",
                 "clear": true,
                 "focus": true
             },
@@ -24,9 +25,10 @@
         },
         {
             "label": "Accenture: Run Visible Tests",
-            "type": "shell",
+            "type": "process",
             "command": "powershell",
             "args": [
+                "-NoProfile",
                 "-ExecutionPolicy", "Bypass",
                 "-File", "${workspaceFolder}/scripts/run-test.ps1",
                 "${file}",
@@ -34,7 +36,7 @@
             ],
             "presentation": {
                 "reveal": "always",
-                "panel": "shared",
+                "panel": "dedicated",
                 "clear": true,
                 "focus": true
             },
@@ -42,9 +44,10 @@
         },
         {
             "label": "Accenture: Run All Tests",
-            "type": "shell",
+            "type": "process",
             "command": "powershell",
             "args": [
+                "-NoProfile",
                 "-ExecutionPolicy", "Bypass",
                 "-File", "${workspaceFolder}/scripts/run-test.ps1",
                 "${file}",
@@ -52,7 +55,7 @@
             ],
             "presentation": {
                 "reveal": "always",
-                "panel": "shared",
+                "panel": "dedicated",
                 "clear": true,
                 "focus": true
             },
@@ -60,31 +63,33 @@
         },
         {
             "label": "Accenture: Compile Current Question",
-            "type": "shell",
+            "type": "process",
             "command": "powershell",
             "args": [
+                "-NoProfile",
                 "-ExecutionPolicy", "Bypass",
                 "-File", "${workspaceFolder}/scripts/compile.ps1",
                 "${file}"
             ],
             "presentation": {
                 "reveal": "always",
-                "panel": "shared",
+                "panel": "dedicated",
                 "clear": true
             },
             "problemMatcher": []
         },
         {
             "label": "Accenture: Run All Repository Tests",
-            "type": "shell",
+            "type": "process",
             "command": "powershell",
             "args": [
+                "-NoProfile",
                 "-ExecutionPolicy", "Bypass",
                 "-File", "${workspaceFolder}/scripts/run-all-tests.ps1"
             ],
             "presentation": {
                 "reveal": "always",
-                "panel": "shared",
+                "panel": "dedicated",
                 "clear": true,
                 "focus": true
             },
@@ -92,16 +97,17 @@
         },
         {
             "label": "Accenture: Run Topic Tests",
-            "type": "shell",
+            "type": "process",
             "command": "powershell",
             "args": [
+                "-NoProfile",
                 "-ExecutionPolicy", "Bypass",
                 "-File", "${workspaceFolder}/scripts/run-all-tests.ps1",
                 "-Topic", "${input:topicFolder}"
             ],
             "presentation": {
                 "reveal": "always",
-                "panel": "shared",
+                "panel": "dedicated",
                 "clear": true,
                 "focus": true
             },

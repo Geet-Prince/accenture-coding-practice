@@ -59,11 +59,42 @@ SPACE COMPLEXITY : O(1)
 ============================================================
 */
 
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 public class Q02ArraySum {
     public static void main(String[] args) throws IOException {
-        // Write your solution here
+        Scanner scanner = new Scanner(System.in);
+        if (!scanner.hasNextInt()) return;
+        
+        int n = scanner.nextInt();
+        if (n == 0) return;
+        
+        long sum = 0;
+        int positives = 0;
+        int negatives = 0;
+        int zeros = 0;
+        
+        for (int i = 0; i < n; i++) {
+            int num = scanner.nextInt();
+            sum += num;
+            if (num > 0) {
+                positives++;
+            } else if (num < 0) {
+                negatives++;
+            } else {
+                zeros++;
+            }
+        }
+        
+        double average = (double) sum / n;
+        
+        System.out.println("Sum: " + sum);
+        System.out.printf(Locale.US, "Average: %.2f\n", average);
+        System.out.println("Positives: " + positives);
+        System.out.println("Negatives: " + negatives);
+        System.out.println("Zeros: " + zeros);
+        
+        scanner.close();
     }
 }

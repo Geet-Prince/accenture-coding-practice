@@ -31,11 +31,29 @@ TIME COMPLEXITY  : O(N)
 SPACE COMPLEXITY : O(1)
 ============================================================
 */
-import java.util.*;
 import java.io.*;
-
+import java.util.*;
 public class Q03CountEvenOdd {
     public static void main(String[] args) throws IOException {
-        // Write your solution here
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int even = 0;
+        int odd = 0;
+
+        for (int i = 0; i < n; i++) {
+            int num = sc.nextInt();
+
+            if (num % 2 == 0) {
+                even++;
+            } else {
+                odd++;
+            }
+        }
+
+        System.out.println("Even: " + even + ", Odd: " + odd);
+
+        sc.close();
     }
 }

@@ -140,6 +140,41 @@ This repository includes a **built-in testing system** — no web app, no manual
 
 ---
 
+## ⚙️ How Things Work & Managing Errors (For Beginners)
+
+We designed this repository so you don't have to worry about manual compilation or entering test cases. Here's a behind-the-scenes look at how it works and what to do if you get stuck.
+
+### 1. How Test Cases Run Automatically 🪄
+Every question file (e.g., `Q01-BasicTraversal.java`) is linked to a hidden `.tests.json` file in the same folder.
+- When you press **`Ctrl+Shift+T`** (or use the Command Palette `Tasks: Run Task`), a PowerShell script (`scripts/run-test.ps1`) wakes up.
+- It finds the Java file you currently have open.
+- It compiles your code and saves the built file inside the hidden `.build/` folder (to keep your workspace clean).
+- It opens the corresponding `.tests.json` file, feeds the test inputs into your code one by one, and compares your code's output to the expected output.
+- Finally, it prints a beautiful PASS/FAIL report directly in your VS Code terminal!
+
+### 2. How to Resolve Errors 🛠️
+As a beginner, you will encounter errors. Don't panic! Here's how to manage them:
+
+- **"Command not found" or Shortcuts aren't working:**
+  Your keyboard might have conflicting shortcuts. Always rely on the manual fallback:
+  👉 Press **`Ctrl+Shift+P`** → Type **`Tasks: Run Task`** → Select **`Accenture: Run Current Question`**.
+- **"FILE NOT FOUND" / "TEST FILE NOT FOUND":**
+  Ensure you are actively clicking inside the `.java` file before running the test. The script needs to know which file you want to test!
+- **Compilation Error (`cannot find symbol`, `; expected`):**
+  Your Java code has a syntax error. The terminal will tell you the exact line number. Fix the typo, save, and press `Ctrl+Shift+T` again.
+- **Execution Policy Error (PowerShell):**
+  If VS Code refuses to run the scripts, open a PowerShell terminal as Administrator and run:
+  `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+
+### 3. The Ultimate AI Fallback 🤖
+If you are completely stuck and don't understand an error, we have a built-in prompt specifically designed for AIs (ChatGPT/Claude/Gemini).
+1. Open the file **[`run_error.md`](run_error.md)**.
+2. Copy the prompt template.
+3. Paste the template into your AI, along with your code and the error you see in the terminal.
+4. The AI will instantly understand how this workspace is structured and tell you exactly how to fix your issue.
+
+---
+
 ## 🤖 AI Teacher
 
 Use an AI (Claude, ChatGPT, Gemini) as your personal tutor with the graduated hint system.
