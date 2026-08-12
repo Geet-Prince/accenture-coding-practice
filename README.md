@@ -69,6 +69,10 @@ The local testing engine is built on PowerShell.
 2. Press **`Ctrl+Shift+B`** (VS Code's native Build shortcut).
 3. **Watch the magic happen!** The system will automatically compile your Java file, pipe the hidden test cases into your code, and output a colorful **PASS/FAIL** UI directly in the terminal!
 
+<div align="center">
+  <img src="img/final%20success%20Result.png" alt="Test Success Result" width="800"/>
+</div>
+
 ---
 
 ## 🛠️ Testing System & Error Management (For Beginners)
@@ -78,6 +82,10 @@ We designed this repository so you don't have to worry about manual compilation 
 ### How Test Cases Run Automatically 🪄
 Every question file (e.g., `Q01-BasicTraversal.java`) is linked to a hidden `.tests.json` file in the same folder.
 - When you press **`Ctrl+Shift+}`**, a script wakes up, compiles your code into a hidden `.build/` folder, feeds the inputs from the JSON file into your code, and checks your output!
+
+<div align="center">
+  <img src="img/1failedtestcase.png" alt="Failed Test Output" width="800"/>
+</div>
 
 > [!IMPORTANT]
 > **Keyboard Shortcuts Not Working?**  
